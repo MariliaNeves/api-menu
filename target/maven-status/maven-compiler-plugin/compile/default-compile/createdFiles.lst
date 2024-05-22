@@ -1,0 +1,6 @@
+br\com\meals\mytest\services\MenuService.class
+br\com\meals\mytest\resources\dto\Menu.class
+br\com\meals\mytest\resources\MenuResource.class
+br\com\meals\mytest\ServletInitializer.class
+br\com\meals\mytest\MytestApplication.class
+br\com\meals\mytest\resources\dto\Meal.class
