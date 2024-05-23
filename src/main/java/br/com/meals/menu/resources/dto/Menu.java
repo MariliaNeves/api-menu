@@ -1,4 +1,4 @@
-package br.com.meals.mytest.resources.dto;
+package br.com.meals.menu.resources.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

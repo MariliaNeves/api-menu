@@ -1,7 +1,7 @@
-package br.com.meals.mytest.resources;
+package br.com.meals.menu.resources;
 
-import br.com.meals.mytest.resources.dto.Meal;
-import br.com.meals.mytest.services.MenuService;
+import br.com.meals.menu.resources.dto.Meal;
+import br.com.meals.menu.services.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

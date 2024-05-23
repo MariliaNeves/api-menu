@@ -1,7 +1,7 @@
-package br.com.meals.mytest.services;
+package br.com.meals.menu.services;
 
-import br.com.meals.mytest.resources.dto.Meal;
-import br.com.meals.mytest.resources.dto.Menu;
+import br.com.meals.menu.resources.dto.Meal;
+import br.com.meals.menu.resources.dto.Menu;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

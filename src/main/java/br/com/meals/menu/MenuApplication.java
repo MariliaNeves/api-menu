@@ -1,13 +1,13 @@
-package br.com.meals.mytest;
+package br.com.meals.menu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MytestApplication {
+public class MenuApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MytestApplication.class, args);
+		SpringApplication.run(MenuApplication.class, args);
 	}
 
 }

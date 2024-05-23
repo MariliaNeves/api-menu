@@ -1,10 +1,10 @@
-package br.com.meals.mytest;
+package br.com.meals.menu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MytestApplicationTests {
+class MenuApplicationTests {
 
 	@Test
 	void contextLoads() {

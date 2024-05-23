@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.meals</groupId>
-	<artifactId>mytest</artifactId>
+	<artifactId>menu</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>mytest</name>
-	<description>Meu teste</description>
+	<name>menu</name>
+	<description>My menu</description>
 	<properties>
 		<java.version>8</java.version>
 	</properties>
@@ -40,17 +40,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>com.heroku.sdk</groupId>
-				<artifactId>heroku-maven-plugin</artifactId>
-				<version>3.0.3</version>
-				<configuration>
-					<appName>my-test-meals</appName>
-					<processTypes>
-						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
-					</processTypes>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
